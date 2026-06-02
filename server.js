@@ -123,7 +123,7 @@ async function triggerReviewRequest(contact) {
       type: 'initial',
     }]);
   } catch (err) {
-    console.error('SMS send failed:', err.message);
+    console.error('SMS send failed FULL ERROR:', JSON.stringify(err));
   }
 }
 
